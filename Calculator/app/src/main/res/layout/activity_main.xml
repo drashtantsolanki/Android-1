@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="4">
+
+
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/txtview"
+                android:layout_width="132dp"
+                android:layout_height="100dp"
+                android:textSize="50dp"
+                android:gravity="right"
+                android:layout_span="4"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnclear"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="Clear"
+                android:layout_span="4"
+                android:textSize="40dp"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnseven"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="7"
+                android:textSize="40dp"/>
+
+
+            <Button
+                android:id="@+id/btneight"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="8"
+                android:textSize="40dp"/>
+
+
+            <Button
+                android:id="@+id/btnnine"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="9"
+                android:textSize="40dp"/>
+
+            <Button
+                android:id="@+id/btnplus"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="+"
+                android:textSize="40dp"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow>
+        <Button
+            android:id="@+id/btnfour"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="4"
+            android:textSize="40dp"/>
+
+
+        <Button
+            android:id="@+id/btnfive"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="5"
+            android:textSize="40dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/btnsix"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="6"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/btnminus"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="-"
+            android:textSize="40dp"/>
+
+        </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnone"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="1"
+            android:textSize="40dp"/>
+
+
+        <Button
+            android:id="@+id/btntwo"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="2"
+            android:textSize="40dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/btnthree"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="3"
+            android:textSize="40dp"/>
+
+
+        <Button
+            android:id="@+id/btnmulti"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="*"
+            android:textSize="40dp"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnzero"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="0"
+            android:textSize="40dp"/>
+
+
+        <Button
+            android:id="@+id/btneq"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="="
+            android:textSize="40dp"
+            android:layout_span="2"/>
+
+        <Button
+            android:id="@+id/btndiv"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="/"
+            android:textSize="40dp" />
+
+    </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

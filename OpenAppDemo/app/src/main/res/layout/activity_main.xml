@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btntextcolorchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1) Text color Change"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/btnpopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2) Popup Menu "
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_below="@+id/btntextcolorchange"/>
+
+    <Button
+        android:id="@+id/btncalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3) Calculator"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnpopup"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnputextra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4) PutExtra Demo"
+        android:textSize="25sp"
+        android:layout_below="@+id/btncalculator"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/btnCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5) CheckBox count"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnputextra"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnSharedPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6) Shared Preferences"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnCheckbox"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7) List View"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnSharedPref"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnCustomDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8) Custom Dialog"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnListView"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

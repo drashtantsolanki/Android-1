@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SharedPreferenceDemo</string>
+    <string-array name="cities">
+        <item>Surat</item>
+        <item>Mumbai</item>
+        <item>Goa</item>
+        <item>Delhi</item>
+        <item>Channai</item>
+        <item>Jaipur</item>
+    </string-array>
+</resources>
