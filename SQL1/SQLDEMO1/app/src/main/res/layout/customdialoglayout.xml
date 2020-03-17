@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="325dp"
+        android:layout_height="150dp"
+        android:stretchColumns="2"
+        android:layout_centerHorizontal="true">
+
+        <TableRow>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Name"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:id="@+id/id_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student City"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:id="@+id/id_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter City" />
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Email"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:id="@+id/id_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter email" />
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
